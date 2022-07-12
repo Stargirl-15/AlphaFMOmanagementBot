@@ -74,13 +74,13 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}!
-I am a group management bot.
-Build by Youth for Youth, I am specialized in managing groups.
+I am a Alpha FMO Lite Education group management bot.
+I am specialized in managing groups.
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *YAR Manager Bot*.
+Hey there! My name is *Alpha FMO Lite Manager Bot*.
 I'm a Pre-programmed Manager for helping admins manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
@@ -102,10 +102,6 @@ And the following:
 
 SAITAMA_IMG = "https://telegra.ph/file/7586f0bff49e9c74d092c.png"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [this link](DONATION_LINK) or by contacting @yaifoundation \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to Join us and Work with us."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -242,7 +238,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🗄 Source code",
-                                url="https://github.com/YAIFoundation/YAR_Manager_Bot",
+                                url="https://github.com/Stargirl-15/AlphaFMOmanagementBot",
                             ),
                         ],
                     ],
